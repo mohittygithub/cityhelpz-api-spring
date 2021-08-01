@@ -1,6 +1,7 @@
 package com.cityhelpz.cityhelpzapi.service;
 
 import java.util.ArrayList;
+
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
@@ -14,6 +15,15 @@ import com.cityhelpz.cityhelpzapi.model.Response;
 import com.cityhelpz.cityhelpzapi.model.User;
 import com.cityhelpz.cityhelpzapi.repository.UserRepository;
 import com.cityhelpz.cityhelpzapi.utils.Utils;
+
+/**
+ * @author Mohti Tyagi
+ * @date 1st August, 2021
+ * 
+ *       This is a service class used as a bridge between Repository and Front
+ *       controllers.
+ *
+ */
 
 @Service
 public class UserService {
